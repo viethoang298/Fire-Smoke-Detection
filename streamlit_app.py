@@ -1,5 +1,5 @@
 import streamlit as st  # type: ignore
-
+pip install cv2
 import cv2
 from ultralytics import YOLO
 import requests # type: ignore
