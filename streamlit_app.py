@@ -1,4 +1,4 @@
-!pip install -q streamlit
+pip install streamlit
 import streamlit as st  # type: ignore
 
 import cv2
