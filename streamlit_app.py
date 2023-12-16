@@ -1,4 +1,3 @@
-pip install streamlit
 import streamlit as st  # type: ignore
 
 import cv2
@@ -173,7 +172,7 @@ def main():
     
     # Load the selected model
     # model_path = os.path.join(models_dir, selected_model + ".pt") #type: ignore
-    model = load_model("/content/gdrive/MyDrive/Forest Fire and Smoke Detection using UAV imaging_3.v9i.yolov8_1 6k pic/models/yolov8m.pt")
+    model = load_model("https://drive.google.com/file/d/1ean1yiBUUNGGyQaCs_Lt0usr-wAM9tqD/view?usp=drive_link")
 
     # Add a section divider
     st.markdown("---")
